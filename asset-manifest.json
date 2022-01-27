@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.4080a023.css",
+    "main.js": "/memory-card/static/js/main.2025e9cb.js",
+    "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/tiger.svg": "/memory-card/static/media/tiger.51ce69f83b3f200d4b01.svg",
+    "static/media/elephant.svg": "/memory-card/static/media/elephant.334ebcbc1a4027b2f550.svg",
+    "static/media/camel.svg": "/memory-card/static/media/camel.2d54f277147d851c16db.svg",
+    "static/media/lion.svg": "/memory-card/static/media/lion.ab48d088ec57707aed2c.svg",
+    "static/media/panda.svg": "/memory-card/static/media/panda.3d31c93d80f42955aac7.svg",
+    "static/media/gorilla.svg": "/memory-card/static/media/gorilla.28ea01de7948286c5ec6.svg",
+    "static/media/polar-bear.svg": "/memory-card/static/media/polar-bear.255cbca55c30f398622c.svg",
+    "static/media/dog.svg": "/memory-card/static/media/dog.7732b284781181878d47.svg",
+    "static/media/koala.svg": "/memory-card/static/media/koala.c11a6767a0efa31fa65d.svg",
+    "static/media/rhinoceros.svg": "/memory-card/static/media/rhinoceros.efbf65cb1f342f0be26e.svg",
+    "index.html": "/memory-card/index.html",
+    "main.4080a023.css.map": "/memory-card/static/css/main.4080a023.css.map",
+    "main.2025e9cb.js.map": "/memory-card/static/js/main.2025e9cb.js.map",
+    "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4080a023.css",
+    "static/js/main.2025e9cb.js"
+  ]
+}
