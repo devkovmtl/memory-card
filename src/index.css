@@ -90,10 +90,13 @@ svg {
   background-color: #ffffff;
 }
 
+.info {
+  margin: 140px 24px 0;
+}
 .card-board {
-  margin: 110px auto;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  margin: 24px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   gap: 14px 26px;

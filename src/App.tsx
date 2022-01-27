@@ -16,6 +16,9 @@ function App() {
         highScore={highScore}
         resetGame={resetGame}
       />
+      <p className='info'>
+        Get points by clicking on image but don't click on any more than once!
+      </p>
       <CardBoard
         setCurrentScore={setCurrentScore}
         setHighScore={setHighScore}
