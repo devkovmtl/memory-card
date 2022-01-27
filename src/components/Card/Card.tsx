@@ -8,18 +8,15 @@ type CardProps = {
 
 export default function Card({ id, name, click }: CardProps) {
   return (
-    <div id={id} onClick={click}>
-      {animals.includes(name) ? (
-        <img
-          width={'120px'}
-          height={'auto'}
-          src={require(`../../images/${name}.svg`)}
-          alt={name}
-        />
-      ) : null}
+    <div id={id} onClick={click} className='card'>
+      <div className='card-image-container'>
+        {animals.includes(name) ? (
+          <img src={require(`../../images/${name}.svg`)} alt={name} />
+        ) : null}
+      </div>
 
       <div>
-        <h2>{name}</h2>
+        <h2 className='card-animal-name'>{name}</h2>
       </div>
     </div>
   );

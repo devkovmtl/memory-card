@@ -10,7 +10,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='main-app-container'>
       <Header
         currentScore={currentScore}
         highScore={highScore}

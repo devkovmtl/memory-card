@@ -41,7 +41,7 @@ export default function CardBoard({
   }, [data]);
 
   return (
-    <div>
+    <div className='card-board'>
       {dataArray.map((dataEl) => (
         <Card
           key={dataEl.id}

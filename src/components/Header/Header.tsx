@@ -10,11 +10,23 @@ export default function Header({
   resetGame,
 }: HeaderProps) {
   return (
-    <div>
-      <h1>Memory Match</h1>
-      <p>Current Score {currentScore}</p>
-      <p>Best Score {highScore}</p>
-      <button onClick={resetGame}>Reset Game</button>
+    <div className='header'>
+      <div className='header-text'>
+        <h1>Animal Memory Game</h1>
+      </div>
+      <div className='header-more'>
+        <div className='score-container'>
+          <p className='score-text'>
+            Current Score: <span className='score'>{currentScore}</span>
+          </p>
+          <p className='score-text'>
+            Best Score: <span className='score'>{highScore}</span>
+          </p>
+        </div>
+        <button onClick={resetGame} className='reset-game-button'>
+          Reset Game
+        </button>
+      </div>
     </div>
   );
 }
